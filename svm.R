@@ -1,5 +1,5 @@
 ## import data and feature creation
-Train.746Data <- read.csv("~/Documents/Spring'16/ECEN_689/newHIV-1_data_ECEN689/Train-746Data.txt", header=FALSE)
+Train.746Data <- read.csv("% enter training data here%", header=FALSE)
 Train.746Data$V2=as.factor(Train.746Data$V2)
 amino<-list("A","R","N","D","C","Q","E","G","H","I","L","K","M","F","P","S","T","W","Y","V")
 # function for feature creation
@@ -41,7 +41,7 @@ rbf_tune<-train(x=feat,y=try,method = "svmRadial",preProcess = c("center","scale
 rbf_tune
 
 ##importing test data and getting predictions
-Test.impensData <- read.csv("~/Documents/Spring'16/ECEN_689/newHIV-1_data_ECEN689/Test-impensData.txt", header=FALSE)
+Test.impensData <- read.csv(" %enter test data here% ", header=FALSE)
 Test.impensData$V2=as.factor(Test.impensData$V2)
 test_feat<-feat_creat(Test.impensData,amino)
 
