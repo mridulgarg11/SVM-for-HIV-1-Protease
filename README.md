@@ -3,4 +3,4 @@ The objective of this project is to understand the cleavage profile of HIV-1 pro
 
 1. Read the INFO.txt file in the Files Folder to gain an understanding of the problem.
 2. The Training and Test data files are also uploaded in the Files Folder. Those need to be read while executing the code.
-3. The roc plot uploaded is what should be generated as he output of the code.
+3. The roc plot uploaded is what should be generated as the output of the code.
